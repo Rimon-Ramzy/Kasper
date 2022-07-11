@@ -292,7 +292,7 @@ header nav .search {
   position: absolute;
   bottom: 3%;
   left: 50%;
-  transform: translateY(-50%);
+  transform: translatex(-50%);
   display: flex;
 }
 .landing .bullets a {
@@ -446,9 +446,9 @@ header nav .search {
   margin-left: 20px;
 }
 .portfolio .img-containet {
-  margin: 50px 20px 0px 20px;
+  margin: 30px;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+  grid-template-columns: repeat(auto-fill,minmax(calc((350px - (20px * 3))),1fr));
   gap: 20px;
   
 }
